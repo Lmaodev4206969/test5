@@ -667,3 +667,68 @@ nav {
     line-height: 1.2rem; /* Adjusted line height for smaller screens */
   }
 }
+
+.staking__container {
+  align-items: middle;
+  justify-content: middle;
+  margin-left: 40%;
+  margin-top: 2rem;
+  height: 75vh;
+}
+
+.apyDisplay {
+  margin-right:2rem;
+}
+
+select, input[type="number"] {
+  width: calc(20% - 22px);
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.staking__inside {
+  margin-top: 10vh;
+}
+.Staking__content h1 {
+  font-size: 60;
+  align-items: center;
+  justify-content: center;
+  margin-right: 0.1em;
+}
+
+@media (width < 800px) {
+  .staking__container {
+    align-items: middle;
+    justify-content: middle;
+    margin-left: 10%;
+    margin-top: 2rem;
+    height: 100vh;
+  }
+  .Staking__content h1 {
+    font-size: 35;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0.1em;
+  }
+
+  select, input[type="number"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  .staking__inside {
+    margin-top: 15vh;
+    margin-bottom: 20vh;
+  }
+
+  .stakedAmountDisplay{
+  margin-top: 20px;
+  }
+}
+
