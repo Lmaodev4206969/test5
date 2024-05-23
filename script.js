@@ -22,12 +22,12 @@ const token1Select = document.getElementById("token1");
 const apyDisplay = document.getElementById("apy");
 
 const apyRates = {
-    "TokenA": 33,
-    "TokenB": 25,
+    "TokenA": 113,
+    "TokenB": 125,
     "TokenC": 133,
     "TokenD": 102,
-    "TokenE": 98,
-    "TokenF": 73
+    "TokenE": 198,
+    "TokenF": 190
 };
 
 function updateAPY() {
